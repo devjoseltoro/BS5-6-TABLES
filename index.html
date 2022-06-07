@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS5 GRID BASIC</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <style>
+        body {
+            background: #ffe259;
+            background: linear-gradient(to right, rgb(246, 255, 81), #ffe259);
+        }
+    </style> -->
+</head>
+
+<body>
+    <div class="text-center p-2">
+        <img src="img/blogger.png" width="32" alt="">
+        <img src="img/dev.png" width="32" alt="">
+        <img src="img/dcoder.png" width="32" alt="">
+        <img src="img/github.png" width="32" alt="">
+        <img src="img/gumroad.png" width="32" alt="">
+        <img src="img/youtube.png" width="32" alt="">
+        <img src="img/twitter.png" width="32" alt="">
+        <img src="img/facebook.png" width="32" alt="">
+        <img src="img/instagram.png" width="32" alt="">
+        <img src="img/tiktok.png" width="32" alt="">
+        <br>
+        <span class="mt-5"> @joseltoro</span>
+    </div>
+
+    <!-- Tabla básica -->
+    <div class="container mt-3">
+        <h2>Tabla básica</h2>
+        <p>La clase .table agrega un estilo básico (relleno ligero y divisores horizontales) a una tabla:</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Primer nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gabriela</td>
+                    <td>Farencena</td>
+                    <td>gabriela@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Josel</td>
+                    <td>Toro</td>
+                    <td>joseluis@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Tatiana</td>
+                    <td>Rojas</td>
+                    <td>tatiana@aprendec.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Filas de rayas -->
+    <div class="container mt-3">
+        <h2>Filas de rayas</h2>
+        <p>La clase .table-striped agrega rayas de cebra a una tabla:</p>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Primer nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gabriela</td>
+                    <td>Farencena</td>
+                    <td>gabriela@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Josel</td>
+                    <td>Toro</td>
+                    <td>joseluis@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Tatiana</td>
+                    <td>Rojas</td>
+                    <td>tatiana@aprendec.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Tabla bordeada -->
+    <div class="container mt-3">
+        <h2>Tabla bordeada</h2>
+        <p>La clase .table-bordered agrega bordes en todos los lados de la tabla y las celdas:</p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Primer nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gabriela</td>
+                    <td>Farencena</td>
+                    <td>gabriela@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Josel</td>
+                    <td>Toro</td>
+                    <td>joseluis@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Tatiana</td>
+                    <td>Rojas</td>
+                    <td>tatiana@aprendec.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Filas flotantes -->
+    <div class="container mt-3">
+        <h2>Filas flotantes</h2>
+        <p>La clase .table-hover habilita un estado de desplazamiento (fondo gris al pasar el mouse) en las filas de la tabla:</p>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Primer nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gabriela</td>
+                    <td>Farencena</td>
+                    <td>gabriela@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Josel</td>
+                    <td>Toro</td>
+                    <td>joseluis@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Tatiana</td>
+                    <td>Rojas</td>
+                    <td>tatiana@aprendec.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Tabla negra/oscura -->
+    <div class="container mt-3">
+        <h2>Tabla negra/oscura</h2>
+        <p>La clase .table-dark agrega un fondo negro a la tabla:</p>
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th>Primer nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gabriela</td>
+                    <td>Farencena</td>
+                    <td>gabriela@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Josel</td>
+                    <td>Toro</td>
+                    <td>joseluis@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Tatiana</td>
+                    <td>Rojas</td>
+                    <td>tatiana@aprendec.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Tabla de rayas oscuras -->
+    <div class="container mt-3">
+        <h2>Tala de rayas oscuras</h2>
+        <p>Combine .table-dark y .table-striped para crear una tabla oscura con rayas:</p>
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th>Primer nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gabriela</td>
+                    <td>Farencena</td>
+                    <td>gabriela@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Josel</td>
+                    <td>Toro</td>
+                    <td>joseluis@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Tatiana</td>
+                    <td>Rojas</td>
+                    <td>tatiana@aprendec.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- Tabla oscura flotante -->
+    <div class="container mt-3">
+        <h2>Tabla oscura flotante</h2>
+        <p>La clase .table-hover agrega un efecto de desplazamiento (color de fondo gris) en las filas de la tabla:</p>            
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th>Primer nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gabriela</td>
+                    <td>Farencena</td>
+                    <td>gabriela@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Josel</td>
+                    <td>Toro</td>
+                    <td>joseluis@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Tatiana</td>
+                    <td>Rojas</td>
+                    <td>tatiana@aprendec.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- Tabla sin bordes -->
+    <div class="container mt-3">
+        <h2>Tabla sin bordes</h2>
+        <p>La clase .table-borderless elimina los bordes de la tabla:</p>            
+        <table class="table table-borderless">
+            <thead>
+                <tr>
+                    <th>Primer nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gabriela</td>
+                    <td>Farencena</td>
+                    <td>gabriela@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Josel</td>
+                    <td>Toro</td>
+                    <td>joseluis@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Tatiana</td>
+                    <td>Rojas</td>
+                    <td>tatiana@aprendec.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Clases Contextuales -->
+    <div class="container mt-3">
+        <h2>Clases Contextuales</h2>
+        <p>Las clases contextuales se pueden utilizar para colorear la tabla, las filas de la tabla o las celdas de la tabla. Las clases que se pueden utilizar son:
+            .table-primary, .table-success, .table-info, .table-warning, .table-danger, .table-active, .table-secondary,
+            .table-light y .table-dark:</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Primer nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Default</td>
+                    <td>Defecto</td>
+                    <td>def@somemail.com</td>
+                </tr>
+                <tr class="table-primary">
+                    <td>Primary</td>
+                    <td>Azul</td>
+                    <td>azu@example.com</td>
+                </tr>
+                <tr class="table-success">
+                    <td>Success</td>
+                    <td>Verde</td>
+                    <td>ver@example.com</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>Danger</td>
+                    <td>Rojo</td>
+                    <td>roj@example.com</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Info</td>
+                    <td>Azul claro</td>
+                    <td>azc@example.com</td>
+                </tr>
+                <tr class="table-warning">
+                    <td>Warning</td>
+                    <td>Naranja</td>
+                    <td>nar@example.com</td>
+                </tr>
+                <tr class="table-active">
+                    <td>Active</td>
+                    <td>Gris</td>
+                    <td>gac@example.com</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>Secondary</td>
+                    <td>Gris</td>
+                    <td>gse@example.com</td>
+                </tr>
+                <tr class="table-light">
+                    <td>Light</td>
+                    <td>Gris claro</td>
+                    <td>gcl@example.com</td>
+                </tr>
+                <tr class="table-dark">
+                    <td>Dark</td>
+                    <td>Gris oscuro</td>
+                    <td>gos@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Colores de la cabecera de la tabla  -->
+    <div class="container mt-3">
+        <h2>Colores de la cabecera de la tabla</h2>
+        <p>Puede usar cualquiera de las clases contextuales para agregar solo un color al encabezado de la tabla:</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Primer nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gabriela</td>
+                    <td>Farencena</td>
+                    <td>gabriela@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Josel</td>
+                    <td>Toro</td>
+                    <td>joseluis@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Tatiana</td>
+                    <td>Rojas</td>
+                    <td>tatiana@aprendec.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table">
+            <thead class="table-success">
+                <tr>
+                    <th>Primer nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gabriela</td>
+                    <td>Farencena</td>
+                    <td>gabriela@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Josel</td>
+                    <td>Toro</td>
+                    <td>joseluis@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Tatiana</td>
+                    <td>Rojas</td>
+                    <td>tatiana@aprendec.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Tabla pequeña -->
+    <div class="container mt-3">
+        <h2>Tabla pequeña</h2>
+        <p>La clase .table-sm hace que la tabla sea más pequeña cortando el relleno de la celda a la mitad:</p>
+        <table class="table table-bordered table-sm">
+            <thead>
+                <tr>
+                    <th>Primer nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gabriela</td>
+                    <td>Farencena</td>
+                    <td>gabriela@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Josel</td>
+                    <td>Toro</td>
+                    <td>joseluis@aprendec.com</td>
+                </tr>
+                <tr>
+                    <td>Tatiana</td>
+                    <td>Rojas</td>
+                    <td>tatiana@aprendec.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--Tabla responsiva -->
+    <div class="container mt-3">
+        <h2>Tabla responsiva</h2>
+        <p>La clase .table-responsive agrega una barra de desplazamiento a la tabla cuando es necesario:</p>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Primer nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                        <th>Ciudad</th>
+                        <th>País</th>
+                        <th>Sexo</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Josel</td>
+                        <td>Toro</td>
+                        <td>30</td>
+                        <td>Lima</td>
+                        <td>Perú</td>
+                        <td>Masculino</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Tabla responsiva -->
+    <div class="container mt-3">
+        <h2>Tabla responsiva</h2>
+        <p>La clase .table-responsive-sm crea una tabla receptiva que se desplazará horizontalmente en pantallas que son menos de 576px de ancho.</p>
+        <p>Cambie el tamaño de la ventana del navegador para ver el efecto.</p>
+        <div class="table-responsive-sm">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Primer Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                        <th>Ciudad</th>
+                        <th>País</th>
+                        <th>Sexo</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Josel</td>
+                        <td>Toro</td>
+                        <td>30</td>
+                        <td>Lima</td>
+                        <td>Perú</td>
+                        <td>Masculino</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+      
+</body>
+
+</html>
